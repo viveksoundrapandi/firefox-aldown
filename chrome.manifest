@@ -1,0 +1,8 @@
+content     firefox-aldown    chrome/content/
+content     firefox-aldown    chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://firefox-aldown/content/browser.xul
+
+locale	firefox-aldown	en-US	locale/en-US/
+
+skin	firefox-aldown	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://firefox-aldown/skin/skin.css
